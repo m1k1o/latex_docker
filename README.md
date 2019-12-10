@@ -1,5 +1,5 @@
 # latex_docker
-Create latex documments using docker container.
+Generating PDF from TeX file in Docker container.
 
 # Build
 
