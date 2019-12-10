@@ -33,6 +33,33 @@ docker run \
 		--help
 ```
 
+Available options are:
+```
+entrypoint.sh [-h] [-i index] [-o index] [-s] [-b] [-c]
+
+where:
+        -h, --help
+                Display this help.
+
+        -i, --input
+                Set input TeX file (default ./index).
+                File must be .tex extension.
+
+        -o, --output
+                Set output PDF file (default is same as input).
+
+        -s, --silent
+                Won't display anything.
+
+        -b, --biber
+                Run biber as well.
+
+        -c, --clear
+                Clear all temporary files.
+
+(c) 2019 by m1k1o
+```
+
 ## Examples
 
 If you have your project in `/home/user/doc` and your TeX file is `index.tex`, you can run it like this:
