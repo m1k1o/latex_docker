@@ -13,6 +13,15 @@ Or you can choose custom Dockerfile:
 docker build --file Dockerfile.full --tag latex_docker .
 ```
 
+## Dockerfile
+Performs `texlive` installation, about 240 MB. 
+
+## Dockerfile.full
+Performs `texlive-full` installation, about 4714 MB.
+
+## Dockerfile.iso690
+TeX settings and `czechslovak` language packages including `iso690` citation as it is required form in many Czech and Slovak universities.
+
 # Run
 
 Mounting point for volume is `/project`.
