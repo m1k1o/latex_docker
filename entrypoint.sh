@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /project
-echo "Your container args are: $@" > /dev/stderr
 
 USAGE="$(basename "$0") [-h] [-i index] [-o index] [-s] [-b] [-c]
 
