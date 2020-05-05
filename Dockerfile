@@ -7,8 +7,9 @@ RUN apt-get update -q && apt-get install -qy \
     texlive \
     lmodern
 
+WORKDIR /project
 VOLUME /project
 
-COPY entrypoint.sh /entrypoint.sh
+COPY entrypoint.sh /bin/pdf_create
 
-ENTRYPOINT [ "/entrypoint.sh" ]
+ENTRYPOINT [ "pdf_create" ]

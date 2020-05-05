@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /project
 
 USAGE="$(basename "$0") [-h] [-i index] [-o index] [-s] [-b] [-c]
 
@@ -23,7 +22,7 @@ where:
 	-c, --clear
 		Clear all temporary files.
 
-(c) 2019 by m1k1o"
+(c) 2019-2020 by m1k1o"
 
 INPUT="index"
 POSITIONAL=()
