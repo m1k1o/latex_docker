@@ -43,22 +43,22 @@ where:
 
 You can build default Dockerfile like this:
 ```
-docker build --tag latex_docker .
+docker build --tag m1k1o/latex:latest .
 ```
 
-Or you can choose custom Dockerfile:
+Or you can choose custom Dockerfile (listed below):
 ```
-docker build --file Dockerfile.full --tag latex_docker .
+docker build --file Dockerfile.full --tag m1k1o/latex:full .
 ```
 
 ## Dockerfile
-Performs `texlive` installation, about 240 MB. 
+Performs `texlive` installation, about 240 MB. Available from docker hub as `m1k1o/latex:latest`.
 
 ## Dockerfile.full
-Performs `texlive-full` installation, about 4714 MB.
+Performs `texlive-full` installation, about 4714 MB. Available from docker hub as `m1k1o/latex:full`.
 
 ## Dockerfile.iso690
-TeX settings and `czechslovak` language packages including `iso690` citation as it is required form in many Czech and Slovak universities.
+TeX settings and `czechslovak` language packages including `iso690` citation as it is required form in many Czech and Slovak universities. Available from docker hub as `m1k1o/latex:iso690`.
 
 ## Examples
 
